@@ -5,7 +5,6 @@ import os
 import requests
 from dotenv import load_dotenv
 
-# Page config must be the first Streamlit command
 st.set_page_config(
     page_title="RishtaGPT: DilSe 💖",
     page_icon="💖",
@@ -93,7 +92,7 @@ def generate_text(prompt):
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
-        "HTTP-Referer": "https://github.com/yourusername/RishtaGPT",
+        "HTTP-Referer": "https://github.com/FatimaNazeer777/AI-Agents-first",
         "X-Title": "RishtaGPT"
     }
     
