@@ -97,7 +97,7 @@ def generate_text(prompt):
     }
     
     json_data = {
-        "model": "openai/gpt-3.5-turbo",
+        "model": "deepseek/deepseek-r1-0528-qwen3-8b:free",
         "messages": [
             {"role": "system", "content": "You are a fun and witty AI expert in desi rishtas."},
             {"role": "user", "content": prompt}
