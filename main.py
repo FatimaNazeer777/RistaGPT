@@ -78,6 +78,43 @@ st.markdown("""
         margin: 20px 0;
         border: 2px solid #FF4B4B;
     }
+    /* Mobile dark theme for better contrast */
+    @media (max-width: 768px) {
+        .stApp {
+            background-color: #0f0f10 !important;
+            color: #eaeaea !important;
+        }
+        .main, .stMarkdown, .stRadio>div, .stSelectbox>div, .feature-card, .result-box {
+            background-color: #161618 !important;
+            color: #eaeaea !important;
+            box-shadow: none !important;
+            border-color: #2a2a2a !important;
+        }
+        .result-box {
+            border: 1px solid #FF4B4B !important;
+        }
+        .sidebar .sidebar-content {
+            background-color: #111214 !important;
+        }
+        .stButton>button {
+            background-color: #FF4B4B !important;
+            color: #ffffff !important;
+        }
+        .stButton>button:hover {
+            background-color: #e13b3b !important;
+        }
+        h1, h2, h3 {
+            color: #ff6b6b !important;
+        }
+        p, label, span, li, input, textarea {
+            color: #eaeaea !important;
+        }
+        .stTextArea textarea, .stSelectbox>div, .stRadio>div {
+            background-color: #1d1f22 !important;
+            color: #eaeaea !important;
+            border-color: #333 !important;
+        }
+    }
 </style>
 """, unsafe_allow_html=True)
 
